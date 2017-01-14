@@ -32,7 +32,7 @@ var moduleFunction = function(args) {
 	const startSystem = () => {
 
 		if (typeof (COMPONENT) == 'undefined') {
-			console.log("COMPONENT is undefined in" + __dirname)
+			//console.log("COMPONENT is undefined in" + __dirname)
 			this.initCallback && this.initCallback();
 			return;
 		}
@@ -96,7 +96,6 @@ var moduleFunction = function(args) {
 
 	//INITIALIZATION ====================================
 
-	console.log(__dirname);
 	startSystem();
 
 
